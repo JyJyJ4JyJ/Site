@@ -1,0 +1,45 @@
+.work{
+	height: 810px;
+	width: 100%;
+	border: 1px solid black;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	align-items: center;
+	visibility:hidden;
+}
+.controls{
+	display: flex;
+	height: 40px;
+	width: 100%;
+	justify-content: space-between;
+}
+.log{
+	width: 50%;
+	border: 1px solid black;
+}
+.buttons{
+	display: flex;
+	width: 25%;
+}
+.button{
+	width: 50%;
+}
+.anim{
+	height: 760px;
+	width: 739.6px;
+	border: 5px solid yellow;
+	background-image: url('presovannui-penoplast.jpg');
+}
+.red{
+	position: relative;
+	height: 10px;
+	width: 10px;
+	background-color: red;
+}
+.green{
+	position: relative;
+	height: 10px;
+	width: 10px;
+	background-color: green;
+}
